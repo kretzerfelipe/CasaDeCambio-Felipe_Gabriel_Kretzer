@@ -1,0 +1,26 @@
+html, body{
+    height: 100%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navy {
+    background-color: #0d1321;
+}
+
+.navy-blue {
+    background-color: #1d2d44;
+    border-color: #3e5c76;
+}
+
+.light {
+    background-color: white;
+}
+
+.colorText {
+    color: white;
+}
+/*748cab
