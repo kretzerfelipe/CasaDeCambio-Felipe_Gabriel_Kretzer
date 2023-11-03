@@ -15,7 +15,7 @@
             <div class="row h-100 navy">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex align-items-center">
-                        <div class="card navy-blue p-4">
+                        <div class="card navy-blue p-5">
                             <div class="d-flex justify-content-center colorText">
                                 <h1>CASA DE CÂMBIO</h1>
                             </div>
@@ -23,28 +23,36 @@
                                 <p>Escolha uma opção</p>
                             </div>
                             <div class="d-flex justify-content-center colorText">
-                                <input type="radio" id="idVender" name="nmOpções">
-                                <label for="idVender">Quero vender uma moeda estrangeira!</label>
+                                <input type="radio" id="idVender" name="nmOpções" class="form-check-input">
+                                <label for="idVender" class="ps-2">Quero vender uma moeda estrangeira!</label>
                             </div>
                             <div class="p-1 d-flex justify-content-center colorText">
-                                <input type="radio" id="idComprar" name="nmOpções">
-                                <label for="idComprar">Quero comprar uma moeda estrangeira!</label>
+                                <input type="radio" id="idComprar" name="nmOpções" class="form-check-input">
+                                <label for="idComprar" class="ps-2">Quero comprar uma moeda estrangeira!</label>
+                            </div>
+                            <div class="p-1 d-flex justify-content-center colorText">
+                                <input type="radio" id="idVenderE" name="nmOpções" class="form-check-input">
+                                <label for="idVenderE" class="ps-2">Quero vender um moeda estrangeira e receber em outra moeda estrangeira!</label>
+                            </div>
+                            <div class="p-1 d-flex justify-content-center colorText">
+                                <input type="radio" id="idComprarE" name="nmOpções" class="form-check-input">
+                                <label for="idComprarE" class="ps-2">Quero comprar um moeda estrangeira e pagar em outra moeda estrangeira!</label>
                             </div>
                             <div class="p-1 d-flex justify-content-center">
-                                <div class="col-6 p-1 d-flex justify-content-center">
+                                <div class="col-7 p-1 d-flex justify-content-center">
                                     <input class="form-control light" list="idListaMoedaUsuário" placeholder="" id="idMoedaUsuário">
                                     <datalist id="idListaMoedaUsuário"></datalist>
                                 </div>
-                                <div class="col-6 p-1 d-flex justify-content-center">
+                                <div class="col-7 p-1 d-flex justify-content-center">
                                     <input class="form-control light" type="number" id="idValorUsuário" placeholder="">
                                 </div>
                             </div>
                             <div class="p-1 d-flex justify-content-center">
-                                <div class="col-6 p-1 d-flex justify-content-center">
+                                <div class="col-7 p-1 d-flex justify-content-center">
                                     <input class="form-control light" list="idListaMoedaCâmbio" placeholder="" id="idMoedaCâmbio">
                                     <datalist id="idListaMoedaCâmbio"></datalist>
                                 </div>
-                                <div class="col-6 p-1 d-flex justify-content-center">
+                                <div class="col-7 p-1 d-flex justify-content-center">
                                     <input class="form-control light" type="number" id="idValorCâmbio" placeholder="">
                                 </div>
                             </div>
